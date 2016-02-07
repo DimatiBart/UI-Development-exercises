@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="calendar">
+        <div class="calendar-month-section">
+         <div class="prev-month"></div>
+          <div class="next-month"></div>
+          <p>May 2014</p>
+        </div>
+        <div class="calendar-table-wrapper">
+            <table>
+            <tr>
+                <td class="calendar-days">Sun</td>
+                <td class="calendar-days">Mon</td>
+                <td class="calendar-days">Tue</td>
+                <td class="calendar-days">Wed</td>
+                <td class="calendar-days">Thu</td>
+                <td class="calendar-days">Fri</td>
+                <td class="calendar-days">Sat</td>
+            </tr>
+            <tr>
+                <td class="irrelevant-date">29</td>
+                <td class="irrelevant-date">30</td>
+                <td>1</td>
+                <td>2</td>
+                <td class="current-date">3</td>
+                <td>4</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td class="marked-date">7</td>
+                <td>8</td>
+                <td>9</td>
+                <td>10</td>
+                <td>11</td>
+                <td>12</td>
+            </tr>
+            <tr>
+                <td>13</td>
+                <td>14</td>
+                <td>15</td>
+                <td>16</td>
+                <td>17</td>
+                <td>18</td>
+                <td>19</td>
+            </tr>
+            <tr>
+                <td>20</td>
+                <td>21</td>
+                <td>22</td>
+                <td class="marked-date">23</td>
+                <td>24</td>
+                <td>25</td>
+                <td>26</td>
+            </tr>
+            <tr>
+                <td>27</td>
+                <td>28</td>
+                <td>29</td>
+                <td>30</td>
+                <td class="irrelevant-date">1</td>
+                <td class="irrelevant-date">2</td>
+                <td class="irrelevant-date">3</td>
+            </tr>
+        </table>
+        </div>
+        <div class="calendar-add-event button"><p>ADD EVENT</p></div>
+    </div>
+    <div class="room-search">
+        <div class="hotel-data">
+            <img src="img/paris.png" alt="paris hotel">
+            <div class="hotel-name"><h3>Hotel Relais</h3>
+            <div class="icon-location"></div><span>Paris, France</span></div>
+        </div>
+        <form>
+            <label>Check in</label>
+            <input type="text" class="input-classy calendar-picker">
+            <label>Check out</label>
+             <input type="text" class="input-classy calendar-picker">
+            <input type="checkbox" value="flexible-dates"><label for="flexible-dates" class="flexiblde-dates">Flexible dates </label>
+            <div class="adults"><label>Adults</label><br><select class="select-amount">
+                <option>0</option>
+                <option>1</option>
+                <option>2</option>
+            </select>
+            </div>
+            <div class="children"><label>Children</label>
+             <select class="select-amount">
+                <option>0</option>
+                <option>1</option>
+                <option>2</option>
+            </select></div>
+            <button type="button" class="button"><div class="icon-search"></div>SEARCH ROOMS</button>
+        </form>
+    </div>
+       <div class="graph">
+           <div class="line"><p>40</p></div>
+           <div class="line"><p>30</p></div>
+           <div class="line"><p>20</p></div>
+           <div class="line"><p>0</p></div>
+           <div class="graph-wrapper">
+               <div class="block-wrapper">
+                   <div class="bubble"><p>17</p></div>
+                    <div class="block mon-block"></div>
+                    <p>Mon</p>
+               </div>
+               <div class="block-wrapper">
+                    <div class="block tues-block"></div>
+                    <p>Tue</p>
+               </div>
+                 <div class="block-wrapper">
+                    <div class="block wed-block"></div>
+                    <p>Wed</p>
+               </div>
+               <div class="block-wrapper">
+                    <div class="block thu-block"></div>
+                    <p>Thu</p>
+               </div>
+               <div class="block-wrapper">
+                    <div class="block fri-block"></div>
+                    <p>Fri</p>
+               </div>
+               <div class="block-wrapper">
+                    <div class="bubble"><p>34</p></div>
+                    <div class="block sat-block"></div>
+                    <p>Sat</p>
+               </div>
+                <div class="block-wrapper">
+                    <div class="block sun-block"></div>
+                    <p>Sun</p>
+               </div>
+           </div>
+       </div>
+       <div class="reviews">
+           <nav>
+               <div class="nav-section nav-section-selected">
+                   <div class="logo-view"></div>
+               </div>
+               <div class="nav-section">
+                   <div class="logo-place"></div>
+               </div>
+               <div class="nav-section">
+                   <div class="logo-favorites"></div>
+               </div>
+           </nav>
+           <div class="reviews-content">  <h3>My most favourite</h3>
+           <h3>place in the world</h3>
+           <p class="p-margin"><span>154</span> Reviews</p>
+           <p class="p-content-margin">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi unde et itaque delectus praesentium. Iusto voluptatum ratione</p>
+           <a href="#">Read more</a>
+           </div>
+           <div class="photo">
+               <img src="img/picture.png" alt="place-photo">
+               <div class="social">
+                   <div class="logo-comments"></div><span class="span-comments">752</span>
+                   <div class="logo-likes"></div><span class="span-likes">2709</span>
+               </div>
+           </div>
+       </div>
+       
+       <div class="mail">
+           <form>
+               <div class="mail-container">
+                   <input type="email" class="mailto">
+                   <div class="inserted-mail">rick.james@mail.com</div>
+               </div>
+               <div class="subject-container">
+                   <input type="text" class="subject" placeholder="Subject">
+                   <input type="file" class="file">
+               </div>
+               <textarea placeholder="Message"></textarea>
+               <button class="button send-button ">SEND</button>
+           </form>
+           
+       </div>
+</body>
+</html>
