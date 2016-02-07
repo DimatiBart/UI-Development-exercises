@@ -1,0 +1,171 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <script type="text/javascript">
+        window.onload = function () {
+            document.getElementById("button").onclick = function (e) {
+                if (document.getElementById("off-canvas").style.display == "" || document.getElementById("off-canvas").style.display == "none")
+                    document.getElementById("off-canvas").style.display = "block";
+                else document.getElementById("off-canvas").style.display = "";
+    }
+}
+
+    </script>
+    <title>RWD</title>
+</head>
+<body>
+   <div class="container">
+    <header class="super">
+       <a href="#">
+            <img  src="img/logo.png" alt="logo" class="main-logo">
+            <p class="company-name"><strong>Lispum</strong> Media</p>
+        </a>
+        <nav class="standard-nav">    
+           <ul>
+                <a href="#">
+                    <li>HOME</li>
+                </a>
+                <a href="#">
+                    <li>ABOUT</li>
+                </a>
+                <a href="#">
+                    <li>WORK</li>
+                </a>
+                <a href="#">
+                    <li>SERVICES</li>
+                </a>
+                <a href="#">
+                    <li>RESOURCES</li>
+                </a>
+                <a href="#">
+                    <li>ARTICLES</li>
+                </a>
+                <a href="#">
+                    <li>CONTACT</li>
+                </a>
+            </ul>
+        </nav>
+        <nav class="off-nav">
+          <p id="button">☰</p>
+        </nav>
+    </header>
+      <header id="off-canvas">
+         <nav class="standard-nav-hid"><ul>
+                <a href="#">
+                    <li>HOME</li>
+                </a>
+                <a href="#">
+                    <li>ABOUT</li>
+                </a>
+                <a href="#">
+                    <li>WORK</li>
+                </a>
+                <a href="#">
+                    <li>SERVICES</li>
+                </a>
+                <a href="#">
+                    <li>RESOURCES</li>
+                </a>
+                <a href="#">
+                    <li>ARTICLES</li>
+                </a>
+                <a href="#">
+                    <li>CONTACT</li>
+                </a>
+            </ul>
+            </nav>
+      </header>
+       <section class="main"> 
+           <h1>LIPSUM MEDIA PRESENTATION</h1>
+           <div class="main-content"> 
+                  <div class="left-content">
+                   <img
+        src="img/3x.png"  
+        srcset="img/2x.png 2x"
+        class="profile-img" alt="profile-img">
+                   <dl>
+                       <dt>CLIENT</dt>
+                       <dd>Jonny</dd>
+                       <dt>PROJECT DESCRIPTION</dt>
+                       <dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam temporibus tenetur molestias dignissimos numquam reprehenderit fugit repellat, impedit neque volup</dd>
+                       <dt>SOFTWARE</dt>
+                       <dd>Photoshop</dd>
+                       <dt>LEVEL OF SERVICE</dt>
+                       <dd>Photoshop</dd>
+                   </dl>
+               </div>
+               <div class="right-content">
+                   <h5> PROJECT DESCRIPTION</h5>
+                   <img class="project-img" src="img/something.png" alt="something">
+                   <p>Ac aliquam pid amet, lorem eu, etiam ultrices, egestas. Et porttitor a, lacus egestas est rhoncus, egestas amet facilisis augue pellentesque. Nec? Velit tristique. Proin facilisis porta porttitor in tortor vel</p>
+                   <div class="read-more-button"><a href="#"><div class="read-more">Read more</div><div class="arrow"></div></a> </div>
+               </div>
+           </div>
+           <div> 
+           
+           </div>
+       </section>
+       <section class="more-info"> 
+           <div class="services"><h5>OUR<span class="orange-font">SERVICES</span></h5>
+               <ul>
+                   <li>Ac tristique sagittis turpis</li>
+                   <li>Duis mus nec porttitor</li>
+                   <li>Phasellus lectus cras</li>
+                   <li>Ac tristique sagittis turpis</li>
+                   <li>Ac tristique sagittis turpis</li>
+                   <li>Ac tristique sagittis turpis</li>
+                   </ul>
+           </div>
+           <div class="facts"><h5>DID YOU<span class="orange-font">KNOW</span></h5>
+               <p>Ac tristique sagittis turpis dis purus egestas! Duis mus nec porttitor hac ac dictumst, porttitor eros adipiscing elementum tincidunt urna mus porttitor odio, non tristique adipiscing lorem, sed nec vel adipiscing sit, quis platea parturient sit adipiscing et massa . Risus, placerat. Augue etiam et dis velit ut, auctor et, duis dolor nunc nunc, augue nisi nascetur, porta</p>
+               <div class="read-more-button"><a href="#"><div class="read-more">Read more</div><div class="arrow"></div></a> </div>
+           </div>
+           <div class="contacts"><h5><span class="orange-font">CONTACT</span></h5>
+            
+           <div>
+               <div class="phone"><p class="black">203-810-4300</p></div>
+       <div class="fax glyph-margin"><p class="black">203-810-4300</p></div>
+           <div class="mail glyph-margin"><p class="black">Contact@lipsum.com</p></div>
+          <div class="address glyph-margin"><p class="black">50 Washington street</p><p class="black">Sute 1048</p>
+           <p class="black">lipsume 0644</p></div>
+           
+               
+           </div>
+           </div></section>
+          <section class="clients">
+          <h5 class="clients-font">OUR<span class="orange-font clients-font">CLIENTS</span></h5>
+           <div class="logos">
+                <div class="logo-at-t"></div>
+                <div class="logo-inc"></div>
+                <div class="logo-autoimmune "></div>
+                <div class="logo-visa "></div>
+                <div class="logo-polar "></div>
+                <div class="logo-gap"></div>
+           </div>
+          </section>
+          <footer>
+             <div class="footer-logo">
+                 <img src="img/logo-little.png" alt="logo">
+                 <p class="company-name footer-logo-font"><strong>Lispum</strong> Media</p>
+             </div> 
+              <div class="footer-nav">
+                  <nav>
+                      <a href="">HOME</a>
+                      <a href="">ABOUT</a>
+                      <a href="">WORK</a>
+                      <a href="">SERVICES</a>
+                      <a href="">RESOURCES</a>
+                      <a href="">ARTICLES</a>
+                      <a href="">CONTACT</a>
+                  </nav>
+                  <p>© LIPSUM MEDIA</p>
+              </div>
+          </footer>
+    </div>
+</body>
+    
+
+</html>
