@@ -1,3 +1,3 @@
-# Web design exercises
+# UI Development exercises
 Some basic HTML/CSS stuff.
 Works nice on Chrome, yey.
